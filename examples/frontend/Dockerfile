@@ -8,7 +8,7 @@ RUN npm install -g yarn && yarn install
 
 RUN npm run build:prod
 
-FROM alpine:latest
+FROM alpine:3.15
 
 # 安装nginx
 RUN mkdir /run/nginx && apk add nginx
