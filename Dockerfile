@@ -20,7 +20,7 @@ RUN npm install -g yarn && yarn install
 RUN npm run build:prod
 
 # images
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 # set as non-interactive
 ENV DEBIAN_FRONTEND noninteractive
