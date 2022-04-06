@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15.4
 
 # 配置工作目录
 WORKDIR /opt/crawlab
