@@ -27,7 +27,7 @@ RUN npm install -g yarn && yarn install --registry=https://registry.npm.taobao.o
 RUN npm run build:prod
 
 # images
-FROM python:alpine
+FROM python:3.13.0a6-alpine3.19
 
 ADD . /app
 
