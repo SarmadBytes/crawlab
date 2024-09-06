@@ -9,7 +9,7 @@ ENV GOPROXY https://mirrors.aliyun.com/goproxy/
 RUN go install -v ./...
 
 # images
-FROM python:alpine
+FROM python:3.13.0rc1-alpine3.20
 
 ADD . /app
 
